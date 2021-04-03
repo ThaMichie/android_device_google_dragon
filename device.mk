@@ -60,8 +60,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ueventd.dragon.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
     $(LOCAL_PATH)/speakerdsp.ini:system/etc/cras/speakerdsp.ini \
     $(LOCAL_PATH)/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal \
-    $(LOCAL_FSTAB):$(TARGET_COPY_OUT_RAMDISK)/fstab.dragon \
-    $(LOCAL_FSTAB):$(TARGET_COPY_OUT_VENDOR)/etc/fstab.dragon	
+    $(LOCAL_PATH)/fstab.dragon:$(TARGET_COPY_OUT_RAMDISK)/fstab.dragon \
+    $(LOCAL_PATH)/fstab.dragon:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.dragon	
     
 # Key layouts
 PRODUCT_PACKAGES += \
